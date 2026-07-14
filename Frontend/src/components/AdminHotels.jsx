@@ -96,61 +96,61 @@ function AdminHotels() {
   ];
 
   const [hotelRoomsAmenities, setHotelRoomsAmenities] = useState({
-    HeatingCoolingSystem:false,
-    Refrigerator:false,
-    Slippers:false,
-    WesternToilet:false,
-    internet:false,
-    CookingFacilities:false,
-    safe:false,
-    TV:false,
-    ElectronicFacilities:false,
-    Furniture:false,
-    drawers:false,
-    WritingDesk:false,
-    air:false,
-    Wardrobe:false,
-    ClothesRack:false,
-    PowerKeyCardSwitch:false,
-    WakeUpService:false,
-    fire:false,
-    Alarm:false,
-    TableLamp:false,
-    telephone:false,
-    Toiletries:false,
-    Bathroom:false,
-    TeaMaker:false,
-    IranianToilet:false,
-    ComplimentaryWater:false,
-    IPTV:false,
+    HeatingCoolingSystem: false,
+    Refrigerator: false,
+    Slippers: false,
+    WesternToilet: false,
+    internet: false,
+    CookingFacilities: false,
+    safe: false,
+    TV: false,
+    ElectronicFacilities: false,
+    Furniture: false,
+    drawers: false,
+    WritingDesk: false,
+    air: false,
+    Wardrobe: false,
+    ClothesRack: false,
+    PowerKeyCardSwitch: false,
+    WakeUpService: false,
+    fire: false,
+    Alarm: false,
+    TableLamp: false,
+    telephone: false,
+    Toiletries: false,
+    Bathroom: false,
+    TeaMaker: false,
+    IranianToilet: false,
+    ComplimentaryWater: false,
+    IPTV: false,
   });
   const roomsAme = [
     { key: "HeatingCoolingSystem", label: "سیستم گرمایش و سرمایش" },
-    { key: "Refrigerator", label:     "یخچال" },
-    { key: "Slippers", label:     "دمپایی"},
-    { key: "WesternToilet", label:     "سرویس بهداشتی فرنگی" },
-    { key: "internet", label:     "اینترنت" },
-    { key: "CookingFacilities", label:     "امکانات آشپزی" },
-    { key: "safe", label:     "گاوصندوق" },
-    { key: "TV", label:    "تلویزیون" },
-    { key: "ElectronicFacilities", label:     "امکانات شارژ وسایل الکترونیکی" },
-    { key: "Furniture", label:     "مبلمان" },
-    { key: "drawers", label:     "دراور" },
-    { key: "WritingDesk", label:     "میز تحریر" },
-    { key: "air", label:     "سیستم تهویه مطبوع" },
-    { key: "Wardrobe", label:     "کمد لباس" },
-    { key: "ClothesRack", label:     "رخت‌آویز" },
-    { key: "PowerKeyCardSwitch", label:     "پاورسوئیچ" },
-    { key: "WakeUpService", label:     "سرویس بیدارباش" },
-    { key: "fire", label:     "سیستم اطفاء حریق" },
-    { key: "Alarm", label:     "زنگ هشدار" },
-    { key: "TableLamp", label:     "آباژور" },
-    { key: "telephone", label:     "تلفن" },
-    { key: "Toiletries", label:       "لوازم بهداشتی" },
-    { key: "Bathroom", label:     "حمام" },
-    { key: "TeaMaker", label:    "چای ساز" },
-    { key: "IranianToilet", label:   "سرویس بهداشتی ایرانی"},
-    { key: "ComplimentaryWater", label:  "آب رایگان" },
+    { key: "Refrigerator", label: "یخچال" },
+    { key: "Slippers", label: "دمپایی" },
+    { key: "WesternToilet", label: "سرویس بهداشتی فرنگی" },
+    { key: "internet", label: "اینترنت" },
+    { key: "CookingFacilities", label: "امکانات آشپزی" },
+    { key: "safe", label: "گاوصندوق" },
+    { key: "TV", label: "تلویزیون" },
+    { key: "ElectronicFacilities", label: "امکانات شارژ وسایل الکترونیکی" },
+    { key: "Furniture", label: "مبلمان" },
+    { key: "drawers", label: "دراور" },
+    { key: "WritingDesk", label: "میز تحریر" },
+    { key: "air", label: "سیستم تهویه مطبوع" },
+    { key: "Wardrobe", label: "کمد لباس" },
+    { key: "ClothesRack", label: "رخت‌آویز" },
+    { key: "PowerKeyCardSwitch", label: "پاورسوئیچ" },
+    { key: "WakeUpService", label: "سرویس بیدارباش" },
+    { key: "fire", label: "سیستم اطفاء حریق" },
+    { key: "Alarm", label: "زنگ هشدار" },
+    { key: "TableLamp", label: "آباژور" },
+    { key: "telephone", label: "تلفن" },
+    { key: "Toiletries", label: "لوازم بهداشتی" },
+    { key: "Bathroom", label: "حمام" },
+    { key: "TeaMaker", label: "چای ساز" },
+    { key: "IranianToilet", label: "سرویس بهداشتی ایرانی" },
+    { key: "ComplimentaryWater", label: "آب رایگان" },
     { key: "IPTV", label: "IPTV" },
   ];
 
@@ -247,33 +247,33 @@ function AdminHotels() {
     });
 
     setHotelRoomsAmenities({
-      HeatingCoolingSystem:false,
-      Refrigerator:false,
-      Slippers:false,
-      WesternToilet:false,
-      internet:false,
-      CookingFacilities:false,
-      safe:false,
-      TV:false,
-      ElectronicFacilities:false,
-      Furniture:false,
-      drawers:false,
-      WritingDesk:false,
-      air:false,
-      Wardrobe:false,
-      ClothesRack:false,
-      PowerKeyCardSwitch:false,
-      WakeUpService:false,
-      fire:false,
-      Alarm:false,
-      TableLamp:false,
-      telephone:false,
-      Toiletries:false,
-      Bathroom:false,
-      TeaMaker:false,
-      IranianToilet:false,
-      ComplimentaryWater:false,
-      IPTV:false,
+      HeatingCoolingSystem: false,
+      Refrigerator: false,
+      Slippers: false,
+      WesternToilet: false,
+      internet: false,
+      CookingFacilities: false,
+      safe: false,
+      TV: false,
+      ElectronicFacilities: false,
+      Furniture: false,
+      drawers: false,
+      WritingDesk: false,
+      air: false,
+      Wardrobe: false,
+      ClothesRack: false,
+      PowerKeyCardSwitch: false,
+      WakeUpService: false,
+      fire: false,
+      Alarm: false,
+      TableLamp: false,
+      telephone: false,
+      Toiletries: false,
+      Bathroom: false,
+      TeaMaker: false,
+      IranianToilet: false,
+      ComplimentaryWater: false,
+      IPTV: false,
     });
     setShowModal(true);
   };
@@ -292,7 +292,6 @@ function AdminHotels() {
   };
 
   const createHotel = async () => {
-
     const formData = new FormData();
 
     formData.append("name", hotelData.name);
@@ -303,57 +302,51 @@ function AdminHotels() {
 
     formData.append("image", imageFile);
 
-
     const newHotel = await post("/Hotels", formData);
 
-
     await post("/Hotel_Amenities", {
-        ...hotelAmenities,
-        hotel_id: newHotel.id
+      ...hotelAmenities,
+      hotel_id: newHotel.id,
     });
 
     await post("/Hotel_Description", {
-        ...hotelDes,
-        hotel_id: newHotel.id
+      ...hotelDes,
+      hotel_id: newHotel.id,
     });
 
     await post("/Rooms_Amenities", {
       ...hotelRoomsAmenities,
-      hotel_id: newHotel.id
-  });
-
+      hotel_id: newHotel.id,
+    });
 
     setShowModal(false);
 
     loadHotels();
-};
-const saveChanges = async () => {
+  };
+  const saveChanges = async () => {
+    const formData = new FormData();
 
-  const formData = new FormData();
+    formData.append("name", hotelData.name);
+    formData.append("city", hotelData.city);
+    formData.append("address", hotelData.address);
+    formData.append("stars", hotelData.stars);
+    formData.append("price", hotelData.price);
 
-  formData.append("name", hotelData.name);
-  formData.append("city", hotelData.city);
-  formData.append("address", hotelData.address);
-  formData.append("stars", hotelData.stars);
-  formData.append("price", hotelData.price);
-
-  if (imageFile) {
+    if (imageFile) {
       formData.append("image", imageFile);
-  }
+    }
 
+    await put(`/Hotels/${hotelData.id}`, formData);
 
-  await put(`/Hotels/${hotelData.id}`, formData);
+    await put(`/Hotel_Amenities/${hotelData.id}`, hotelAmenities);
 
+    await put(`/Hotel_Description/${hotelData.id}`, hotelDes);
 
-  await put(`/Hotel_Amenities/${hotelData.id}`, hotelAmenities);
+    await put(`/Rooms_Amenities/${hotelData.id}`, hotelRoomsAmenities);
+    setShowModal(false);
 
-  await put(`/Hotel_Description/${hotelData.id}`, hotelDes);
-
-  await put(`/Rooms_Amenities/${hotelData.id}`, hotelRoomsAmenities);
-  setShowModal(false);
-
-  loadHotels();
-};
+    loadHotels();
+  };
   const handleAmenityChange = (key) => {
     setHotelAmenities((prev) => ({
       ...prev,
@@ -554,12 +547,9 @@ const saveChanges = async () => {
                     className="border w-[180px] p-2 rounded mb-6"
                   />
                 </div>
-                <div className="mb-5">
-                  <label className="block mb-3 font-semibold">
-                    امکانات هتل
-                  </label>
-
-                  <div className="grid grid-cols-2 gap-3 max-h-62 overflow-y-auto border rounded-lg p-3 text-[16px]">
+                <div className="flex mb-5">
+                  <div className="grid grid-cols-1 gap-3 max-h-62 w-[250px] overflow-y-auto border rounded-lg p-3 text-[16px] ml-5">
+                    <label className="block mb-3 font-bold">امکانات  عمومی هتل</label>
                     {publicAme.map((item) => (
                       <label key={item.key} className="flex items-center gap-2">
                         <input
@@ -571,7 +561,8 @@ const saveChanges = async () => {
                       </label>
                     ))}
                   </div>
-                  <div className="grid grid-cols-2 gap-3 max-h-62 overflow-y-auto border rounded-lg p-3 text-[16px]">
+                  <div className="grid grid-cols-1 gap-3 max-h-62 w-[250px] overflow-y-auto border rounded-lg p-3 text-[16px]">
+                    <label className="block mb-3 font-bold">امکانات اتاق ها</label>
                     {roomsAme.map((item) => (
                       <label key={item.key} className="flex items-center gap-2">
                         <input
@@ -618,4 +609,5 @@ const saveChanges = async () => {
 
 export default AdminHotels;
 
-// تابع saveChange و createHotel با هوش مصنوعی نوشته شده.
+// saveChange و createHotel => AI
+// بخش امکانات =>  AI
