@@ -70,3 +70,5 @@ export async function del(path) {
 
   return await response.json();
 }
+
+// post , put =>   AI
